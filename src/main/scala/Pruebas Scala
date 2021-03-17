@@ -1,0 +1,15 @@
+scala> :paste
+// Entering paste mode (ctrl-D to finish)
+
+var pares = 0
+var impares = 0
+for (numeros <- (1 to 100)){
+    if (numeros % 2 == 0) pares+=numeros
+    else impares+=numeros
+}
+
+
+// Exiting paste mode, now interpreting.
+
+var pares: Int = 2550
+var impares: Int = 2500
